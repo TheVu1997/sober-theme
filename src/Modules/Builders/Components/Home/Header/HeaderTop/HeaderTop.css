@@ -1,0 +1,48 @@
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.orebi-header {}
+.orebi-header.header-top {}
+.orebi-header__container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+.orebi-header__inner {}
+.orebi-header__top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+.orebi-header__top-bar__logo {}
+.orebi-header__top-bar__logo-img {}
+h1.logo {
+    font-size: 16px;
+}
+.orebi-header__top-bar__menu {}
+.orebi-header__top-bar__menu-items {}
+.list-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.list-item li a {
+    color: #262626;
+}
+.list-item--menu {
+    gap: 40px;
+}
+.list-item--lan {
+    gap: 20px;
+}
+.orebi-header__top-bar__lan {}
+.orebi-header__top-bar__lan-items {}

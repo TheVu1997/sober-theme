@@ -1,0 +1,16 @@
+.orebi-intro {}
+.orebi-intro.intro-image {
+    background: url("/src/assets/d07f00c7f8bf20e179ae.jpg")
+}
+
+.orebi-intro__container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+.orebi-intro__inner {}
+.orebi-intro__image {}
+.orebi-intro__image-title {}
+.orebi-intro__image-des {}
+.orebi-intro__image-btn {}
