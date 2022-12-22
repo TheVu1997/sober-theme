@@ -4,6 +4,7 @@ import { FaGripLines } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
+import { FaCaretDown } from "react-icons/fa";
 
 function HeaderBot() {
     return (
@@ -11,12 +12,12 @@ function HeaderBot() {
                 <div className="orebi-header__container">
                     <div className="orebi-header__inner">
                         <div className="orebi-header__bot-bar">
-                            <div className="orebi-header__bot-bar__cate">
-                                <div className="orebi-header__bot-bar__cate-icon">
+                            <div className="orebi-header__bot-bar__category">
+                                <div className="orebi-header__bot-bar__category-icon">
                                     <FaGripLines size='1em'/>
                                 </div>
-                                <div className="orebi-header__bot-bar__cate-text">
-                                    <h3>Shop by Category</h3>
+                                <div className="orebi-header__bot-bar__category-text">
+                                    <h3 className='category-text__title'>Shop by Category</h3>
                                 </div>
                             </div>
                             <div className="orebi-header__bot-bar__search">
@@ -30,6 +31,7 @@ function HeaderBot() {
                             <div className="orebi-header__bot-bar__info">
                                 <div className="orebi-header__bot-bar__info-user">
                                     <FaUser/>
+                                    <FaCaretDown/>
                                 </div>
                                 <div className="orebi-header__bottom-bar__info-cart">
                                     <FaShoppingCart/>
