@@ -9,7 +9,7 @@ function HeaderTop() {
                         <div className="orebi-header__top-bar">
                             <div className="orebi-header__top-bar__logo">
                                 <div className="orebi-header__top-bar__logo-img">
-                                    <h1 className='logo'>OREBI</h1>
+                                    <h1 className='logo-img__title'>OREBI</h1>
                                 </div>
                             </div>
                             <div className="orebi-header__top-bar__menu">

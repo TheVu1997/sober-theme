@@ -13,13 +13,8 @@ a:hover {
 
 body {
   margin: 0;
-  max-width: 1900px;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
 button {
   border-radius: 8px;

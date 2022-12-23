@@ -8,7 +8,7 @@ a {
 .orebi-header {}
 .orebi-header.header-top {}
 .orebi-header__container {
-    max-width: 1200px;
+    max-width: 1600px;
     width: 100%;
     padding: 0 15px 0 15px;
     margin: 0 auto;
@@ -22,7 +22,7 @@ a {
 }
 .orebi-header__top-bar__logo {}
 .orebi-header__top-bar__logo-img {}
-h1.logo {
+.logo-img__title {
     font-size: 16px;
 }
 .orebi-header__top-bar__menu {}
