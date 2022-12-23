@@ -8,8 +8,7 @@ a {
 .orebi-header {}
 .orebi-header.header-top {}
 .orebi-header__container {
-    max-width: 1200px;
-    width: 100%;
+    max-width: 1600px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
 }
@@ -36,7 +35,7 @@ h1.logo {
 }
 
 .list-item li a {
-    color: #262626;
+    color: var(--gray--800);
 }
 .list-item--menu {
     gap: 40px;

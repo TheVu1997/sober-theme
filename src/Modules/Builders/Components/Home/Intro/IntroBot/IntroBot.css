@@ -1,0 +1,11 @@
+.orebi-intro {}
+.orebi-intro__container {
+    max-width: 1600px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+.orebi-intro__inner {}
+.orebi-intro__info {}
+.orebi-intro__info-title {}
+.orebi-intro__info-des {}
+.orebi-intro__info-btn {}

@@ -9,14 +9,13 @@ a {
 .orebi-header {}
 
 .orebi-header.header-bot {
-    background: #F5F5F3;
+    background: var(--gray--100);
 }
 
 .orebi-header__bot-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #F5F5F3;
     min-height: 100px;
 }
 
@@ -39,7 +38,7 @@ a {
     width: 100%;
     min-height: 50px;
     height: 100%;
-    background: #FFFFFF;
+    background: var(--white);
 }
 
 .orebi-header__bot-bar__search-input {
