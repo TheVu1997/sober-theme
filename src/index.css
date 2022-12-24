@@ -12,7 +12,7 @@
   --gray--200: #e7e5e4;
   --gray--300: #d6d3d1;
   --gray--400: #a8a29e;
-  --gray--500: #78716c;
+  --gray--500: #6D6D6D;
   --gray--600: #57534e;
   --gray--700: #44403c;
   --gray--800: #262626;
@@ -29,7 +29,7 @@
   --primary--800: #075985;
   --primary--900: #0c4a6e;
 
-  
+
 
   --spacer-xs: 0.5rem;
   --spacer-sm: 0.75rem;
@@ -56,12 +56,17 @@ a:hover {
 
 body {
   margin: 0;
-  max-width: 1900px;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.gray--500 {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray--500);
 }
 
 button {
