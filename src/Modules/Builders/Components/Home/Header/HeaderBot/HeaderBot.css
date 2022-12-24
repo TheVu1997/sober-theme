@@ -19,16 +19,20 @@ a {
     min-height: 100px;
 }
 
-.orebi-header__bot-bar__cate {
+.orebi-header__bot-bar__category {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
 
-.orebi-header__bot-bar__cate-icon {}
+.orebi-header__bot-bar__category-icon {}
 
-.orebi-header__bot-bar__cate-text {}
+.orebi-header__bot-bar__category-text {}
+.category-text__title {
+    font-weight: 400;
+    font-size: 14px;
+}
 
 .orebi-header__bot-bar__search {
     max-width: 600px;
@@ -44,23 +48,27 @@ a {
 .orebi-header__bot-bar__search-input {
     width: 100%;
     height: 100%;
-    padding: 16px 0 16px 16px;
 }
 
 .orebi-header__bot-bar__search-input input {
     height: 100%;
     border: 0;
+    min-height: 50px;
+    width: 100%;
+    padding: 0 0 0 16px;
+    outline: none;
 }
 
 .orebi-header__bot-bar__search-icon {
-    padding-right: 16px;
+    padding: 16px;
+    cursor: pointer;
 }
 
 .orebi-header__bot-bar__info {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 41px;
 }
 
 .orebi-header__bot-bar__info-user {}
