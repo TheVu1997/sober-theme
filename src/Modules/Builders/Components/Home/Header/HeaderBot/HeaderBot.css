@@ -23,7 +23,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: var(--spacer-md);
 }
 
 .orebi-header__bot-bar__category-icon {}
@@ -31,7 +31,7 @@ a {
 .orebi-header__bot-bar__category-text {}
 .category-text__title {
     font-weight: 400;
-    font-size: 14px;
+    font-size: var(--font-sm);
 }
 
 .orebi-header__bot-bar__search {
@@ -68,7 +68,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 41px;
+    gap: var(---spacer-3xl);
 }
 
 .orebi-header__bot-bar__info-user {}

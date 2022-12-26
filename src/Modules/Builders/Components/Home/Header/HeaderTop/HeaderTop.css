@@ -9,10 +9,6 @@ a {
 .orebi-header.header-top {}
 .orebi-header__container {
     max-width: 1600px;
-<<<<<<< HEAD
-=======
-    width: 100%;
->>>>>>> 67bef82c243f6301596308aacf64df4b277fe0b4
     padding: 0 15px 0 15px;
     margin: 0 auto;
 }
@@ -26,14 +22,14 @@ a {
 .orebi-header__top-bar__logo {}
 .orebi-header__top-bar__logo-img {}
 .logo-img__title {
-    font-size: 16px;
+    font-size: var(--font--base);
 }
 .orebi-header__top-bar__menu {}
 .orebi-header__top-bar__menu-items {}
 .list-item {
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: var(--font-sm);
     font-family: inherit;
     font-weight: 700;
 }
@@ -42,10 +38,10 @@ a {
     color: var(--gray--800);
 }
 .list-item--menu {
-    gap: 40px;
+    gap: var(--spacer-3xl);
 }
 .list-item--lan {
-    gap: 20px;
+    gap: var(--spacer-xl);
 }
 .orebi-header__top-bar__lan {}
 .orebi-header__top-bar__lan-items {}
