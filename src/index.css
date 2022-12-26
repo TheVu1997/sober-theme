@@ -40,6 +40,9 @@
   --spacer-xl: 1.5rem;
   --spacer-2xl: 2rem;
   --spacer-3xl: 2.5rem;
+  --spacer-4xl: 3rem;
+  --spacer-5xl: 3.5rem;
+
 
   --font-sm: 0.875rem;
   --font-base: 1rem;
@@ -49,6 +52,7 @@
   --font-3xl: 2.5rem;
   --font-4xl: 3rem;
 }
+
 
 a {
   font-weight: 500;

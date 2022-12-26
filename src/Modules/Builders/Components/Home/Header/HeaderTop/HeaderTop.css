@@ -9,7 +9,7 @@ a {
 .orebi-header.header-top {}
 .orebi-header__container {
     max-width: 1600px;
-    padding: 0 15px 0 15px;
+    padding: 0 var(--spacer-md) 0 var(--spacer-md);
     margin: 0 auto;
 }
 .orebi-header__inner {}

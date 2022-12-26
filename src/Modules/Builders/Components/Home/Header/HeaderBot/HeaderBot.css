@@ -55,12 +55,12 @@ a {
     border: 0;
     min-height: 50px;
     width: 100%;
-    padding: 0 0 0 16px;
+    padding: 0 0 0 var(--spacer-md);
     outline: none;
 }
 
 .orebi-header__bot-bar__search-icon {
-    padding: 16px;
+    padding: var(--spacer-md);
     cursor: pointer;
 }
 
@@ -68,9 +68,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: var(---spacer-3xl);
+    gap: var(--spacer-3xl);
 }
 
-.orebi-header__bot-bar__info-user {}
+.orebi-header__bot-bar__info-user {
+    display: flex;
+}
 
 .orebi-header__bot-bar__info-cart {}
