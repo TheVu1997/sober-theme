@@ -17,7 +17,7 @@ function IntroTop() {
                         <div className="orebi-intro__content" >
                             <div className="orebi-intro__content-left">
                                 <div className="orebi-intro__content-left__title">
-                                    <h1>Final Offer</h1>
+                                    <h2>Final Offer</h2>
                                 </div>
                                 <div className="orebi-intro__content-left__des">
                                     <p className='orebi-intro__content-left__des-sale gray--500'>Up to <b>50%</b> sale for all furniture items!</p>
