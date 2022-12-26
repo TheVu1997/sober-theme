@@ -58,6 +58,12 @@
     margin-bottom: 58px;
 }
 
+.orebi-intro__content-left__des-sale.gray--500 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .orebi-intro__content-left__des-sale {
     font-size: var(--font-base);
     font-weight: 400;
@@ -68,6 +74,7 @@
     font-size: var(--font-3xl);
     font-weight: 700;
     color: var(--gray--800);
+    padding: 0 5px 0 5px;
 }
 
 
