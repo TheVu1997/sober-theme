@@ -1,0 +1,109 @@
+.orebi-sales {}
+
+.orebi-sales__container {
+    max-width: 1600px;
+    padding: 0 var(--spacer-md) 0 var(--spacer-md);
+    margin: 0 auto;
+}
+
+.orebi-sales__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacer-3xl);
+    text-align: left;
+    height: auto;
+}
+
+.orebi-sales__left {
+    width: 50%;
+    height: 100%;
+}
+
+.orebi-sales__left-phones {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.orebi-sales__left-phones__image {
+    position: relative;
+    max-height: 780px;
+    height: 100%;
+}
+
+.orebi-sales__left-phones__image img {
+    width: 100%;
+    object-fit: cover;
+    min-height: 780px;
+    height: 100%;
+}
+
+.orebi-sales__left-phones__content {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: var(--spacer-3xl);
+    ;
+}
+
+.orebi-sales__right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: var(--spacer-3xl);
+    min-height: 780px;
+    height: 100%;
+}
+
+.orebi-sales__right-electronic,
+.orebi-sales__right-furniture {
+    width: 100%;
+    max-width: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacer-3xl);
+    position: relative;
+}
+
+.orebi-sales__right-electronic__image,
+.orebi-sales__right-furniture__image {
+    max-height: 370px;
+    height: 100%;
+}
+
+.orebi-sales__right-electronic__image img,
+.orebi-sales__right-furniture__image img {
+    width: 100%;
+    height: 100%;
+    max-height: 370px;
+}
+
+.orebi-sales__right-electronic__content,
+.orebi-sales__right-furniture__content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: var(--spacer-3xl);
+    width: 100%;
+    max-width: 780px;
+}
+.orebi-sales__right-electronic__content-btn,
+.orebi-sales__right-furniture__content-btn,
+.orebi-sales__left-phones__content-btn {
+    margin-left: var(--spacer-5xl);
+}
+
+.orebi-sales__left-phones__content-title,
+.orebi-sales__left-phones__content-number,
+.orebi-sales__right-electronic__content-title,
+.orebi-sales__right-electronic__content-number,
+.orebi-sales__right-furniture__content-title,
+.orebi-sales__right-furniture__content-number {
+    padding-left: var(--spacer-5xl);
+}
