@@ -9,14 +9,13 @@ a {
 .orebi-header {}
 
 .orebi-header.header-bot {
-    background: #F5F5F3;
+    background: var(--gray--100);
 }
 
 .orebi-header__bot-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #F5F5F3;
     min-height: 100px;
 }
 
@@ -24,7 +23,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: var(--spacer-md);
 }
 
 .orebi-header__bot-bar__category-icon {}
@@ -32,7 +31,7 @@ a {
 .orebi-header__bot-bar__category-text {}
 .category-text__title {
     font-weight: 400;
-    font-size: 14px;
+    font-size: var(--font-sm);
 }
 
 .orebi-header__bot-bar__search {
@@ -43,7 +42,7 @@ a {
     width: 100%;
     min-height: 50px;
     height: 100%;
-    background: #FFFFFF;
+    background: var(--white);
 }
 
 .orebi-header__bot-bar__search-input {
@@ -56,12 +55,12 @@ a {
     border: 0;
     min-height: 50px;
     width: 100%;
-    padding: 0 0 0 16px;
+    padding: 0 0 0 var(--spacer-md);
     outline: none;
 }
 
 .orebi-header__bot-bar__search-icon {
-    padding: 16px;
+    padding: var(--spacer-md);
     cursor: pointer;
 }
 
@@ -69,9 +68,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 41px;
+    gap: var(--spacer-3xl);
 }
 
-.orebi-header__bot-bar__info-user {}
+.orebi-header__bot-bar__info-user {
+    display: flex;
+}
 
 .orebi-header__bot-bar__info-cart {}

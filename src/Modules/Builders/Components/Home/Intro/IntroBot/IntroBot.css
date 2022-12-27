@@ -1,0 +1,52 @@
+.orebi-intro {}
+.orebi-intro__container {
+    max-width: 1600px;
+    padding: 0 var(--spacer-md) 0 var(--spacer-md);
+    margin: 0 auto;
+}
+.orebi-intro__inner {}
+.orebi-intro__info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--spacer-2xl) 0;
+}
+.orebi-intro__info-warranty,.orebi-intro__info-ship,.orebi-intro__info-policy {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    gap: var(--spacer-md);
+    max-width: 220px;
+    width: 100%;
+}
+.info-warranty__icon,.info-ship__icon,.info-policy__icon {
+    max-width: 25px;
+    width: 100%;
+    max-height: 20px;
+}
+.info-warranty__text {
+    width: 100%;
+    max-width: 140px;
+}
+.info-ship__text {
+    width: 100%;
+    max-width: 120px;
+}
+.info-policy__text {
+    width: 100%;
+    max-width: 180px;
+}
+.icon--info {
+    max-width: 25px;
+    min-height: 20px;
+    width: 100%;
+    margin: 0;
+}
+.icon--info svg {
+    width: 100%;
+    height: 100%;
+}
+.orebi-intro__info-des {}
+.orebi-intro__info-btn {}
