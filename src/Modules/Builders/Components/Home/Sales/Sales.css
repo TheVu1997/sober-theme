@@ -1,4 +1,7 @@
-.orebi-sales {}
+.orebi-sales {
+    width: 100%;
+    margin-bottom: 128px;
+}
 
 .orebi-sales__container {
     max-width: 1600px;
