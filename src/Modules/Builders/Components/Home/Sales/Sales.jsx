@@ -17,7 +17,7 @@ function Sales() {
                                         <h2 className='h2--white'>Phones Sale</h2>
                                     </div>
                                     <div className="orebi-sales__left-phones__content-number">
-                                        <p className='text--white'>Up to <b>30%</b> sale for all phones!</p>
+                                        <p className='text--white'>Up to <b className='percent--white'>30%</b> sale for all phones!</p>
                                     </div>
                                     <a className='orebi-sales__left-phones__content-btn btn--white' href="">Shop Now</a>
                                 </div>
@@ -33,7 +33,7 @@ function Sales() {
                                         <h2 className=' h2--white'>Electronics Sale</h2>
                                     </div>
                                     <div className="orebi-sales__right-electronic__content-number">
-                                        <p className='text--white'>Up to <b>70%</b> sale for all electronics!</p>
+                                        <p className='text--white'>Up to <b className='percent--white'>70%</b> sale for all electronics!</p>
                                     </div>
                                     <a className='orebi-sales__right-electronic__content-btn btn--white' href="">Shop Now</a>
                                 </div>
@@ -47,7 +47,7 @@ function Sales() {
                                         <h2 className='h2--white'>Furniture Offer</h2>
                                     </div>
                                     <div className="orebi-sales__right-furniture__content-number">
-                                        <p className='text--white'>Up to <b>50%</b> sale for all furniture items!</p>
+                                        <p className='text--white'>Up to <b className='percent--white'>50%</b> sale for all furniture items!</p>
                                     </div>
                                     <a className='orebi-sales__right-furniture__content-btn btn--white' href="">Shop Now</a>
                                 </div>
