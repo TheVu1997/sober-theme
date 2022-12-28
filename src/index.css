@@ -53,6 +53,37 @@
   --font-4xl: 3rem;
 }
 
+.h2--white {
+  font-size: var(--font-3xl);
+  font-weight: 700;
+  color: var(--white);
+}
+
+.text--white {
+  font-size: var(--font-base);
+  font-weight: 400;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn--white {
+  border: 1px solid var(--white);
+  padding: var(--spacer-md) var(--spacer-5xl);
+  background: var(--white);
+  font-size: var(--font-sm);
+  font-weight: 700;
+  text-align: center;
+  color: var(--black);
+}
+
+.percent--white {
+  font-size: var(--font-3xl);
+  font-weight: 700;
+  color: var(--white);
+  padding: 0 var(--spacer-xs) 0 var(--spacer-xs);
+}
 
 a {
   font-weight: 500;
@@ -99,7 +130,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: var(--primary--950);
-    background-color:var(--white);
+    background-color: var(--white);
   }
 
   a:hover {
