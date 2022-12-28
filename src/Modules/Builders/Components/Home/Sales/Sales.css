@@ -1,6 +1,6 @@
 .orebi-sales {
     width: 100%;
-    margin-bottom: 128px;
+    margin-bottom: var(--spacer-5xl);
 }
 
 .orebi-sales__container {
