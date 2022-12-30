@@ -4,6 +4,7 @@
   /* Color styles */
   --white: #ffffff;
   --black: #000000;
+  --black-shadow: #00000033;
   --background: #F8F9FB;
   --text-color: #956249;
 
@@ -57,6 +58,12 @@
   font-size: var(--font-3xl);
   font-weight: 700;
   color: var(--white);
+}
+
+.h2--black {
+  font-size: var(--font-3xl);
+  font-weight: 700;
+  color: var(--black);
 }
 
 .text--white {
