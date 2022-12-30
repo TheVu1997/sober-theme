@@ -4,6 +4,7 @@ import Header from './Modules/Builders/Components/Home/Header/Header';
 import Intro from './Modules/Builders/Components/Home/Intro/Intro';
 import Phone from './Modules/Builders/Components/Home/Phone/Phone';
 import Sales from './Modules/Builders/Components/Home/Sales/Sales';
+import Special from './Modules/Builders/Components/Home/Special/Special';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Arrivals/>
             <BestSeller/>
             <Phone/>
+            <Special/>
         </>
         
     );
