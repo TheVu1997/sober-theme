@@ -75,7 +75,6 @@
     background: var(--black);
     color: white;
     font-size: var(--font-base);
-    padding: var(--spacer-xs) var(-spacer-2xl);
 }
 
 .orebi-arrivals__bottom-wrapper__image-abc__btn {
