@@ -1,0 +1,64 @@
+.orebi-phone {
+    width: 100%;
+    margin-bottom: var(--spacer-5xl);
+}
+
+.orebi-phone__container {
+    max-width: 1600px;
+    padding: 0 var(--spacer-md) 0 var(--spacer-md);
+    margin: 0 auto;
+}
+
+.orebi-phone__inner {}
+
+.orebi-phone__center {
+    max-height: 370px;
+    position: relative;
+    height: 100%;
+}
+
+.orebi-phone__center-image {
+    position: relative;
+    height: 100%;
+}
+
+.orebi-phone__center-image img {
+    max-height: 370px;
+    height: 100%;
+    width: 100%;
+}
+
+.orebi-phone__center-content {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.orebi-phone__center-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    max-width: 513px;
+    gap: var(--spacer-4xl);
+}
+
+.orebi-phone__center-content-wrapper__title,
+.orebi-phone__center-content-wrapper__number,
+.orebi-phone__center-content-wrapper__btn {
+    display: flex;
+}
+
+.orebi-phone__center-content-wrapper__number {
+    justify-content: center;
+    align-items: normal;
+    text-align: left;
+}
