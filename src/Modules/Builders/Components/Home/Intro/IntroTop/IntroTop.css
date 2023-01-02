@@ -1,4 +1,6 @@
-.orebi-intro {}
+.orebi-intro {
+    margin-bottom: var(--spacer-5xl);
+}
 .orebi-intro__inner.inner-image {
     position: relative;
     display: flex;
@@ -49,7 +51,7 @@
     text-align: center;
 }
 
-.orebi-intro__content-left__title h1 {
+.orebi-intro__content-left__title h2 {
     font-size: var(--font-4xl);
     font-weight: 700;
     color: var(--gray--800);
