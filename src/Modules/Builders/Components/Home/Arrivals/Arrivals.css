@@ -1,4 +1,6 @@
-.orebi-arrivals {}
+.orebi-arrivals {
+    margin-bottom: var(--spacer-5xl);
+}
 
 .orebi-arrivals__container {
     max-width: 1600px;
@@ -94,7 +96,7 @@
     top: 35%;
 }
 .orebi-arrivals__bottom-arrow__left {
-    left: 0;
+    left: '${(props) => props.direction === "left" && "0px"}';
 }
 .orebi-arrivals__bottom-arrow__left-border {
     border-radius: 50%;
