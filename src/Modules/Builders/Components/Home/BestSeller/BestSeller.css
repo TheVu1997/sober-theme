@@ -1,4 +1,6 @@
-.orebi-bestseller {}
+.orebi-bestseller {
+    margin-bottom: var(--spacer-5xl);
+}
 
 .orebi-bestseller__container {
     max-width: 1600px;
