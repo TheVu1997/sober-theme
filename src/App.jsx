@@ -3,6 +3,7 @@ import BestSeller from './Modules/Builders/Components/Home/BestSeller/BestSeller
 import Brands from './Modules/Builders/Components/Home/Brands/Brands';
 import Header from './Modules/Builders/Components/Home/Header/Header';
 import Intro from './Modules/Builders/Components/Home/Intro/Intro';
+import Journal from './Modules/Builders/Components/Home/Journal/Journal';
 import Phone from './Modules/Builders/Components/Home/Phone/Phone';
 import Sales from './Modules/Builders/Components/Home/Sales/Sales';
 import Special from './Modules/Builders/Components/Home/Special/Special';
@@ -18,6 +19,7 @@ function App() {
             <Phone/>
             <Special/>
             <Brands/>
+            <Journal/>
         </>
         
     );
