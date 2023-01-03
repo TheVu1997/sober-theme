@@ -1,0 +1,64 @@
+.orebi-journal {
+    width: 100%;
+    margin-bottom: var(--margin-bottom);
+}
+
+.orebi-journal__container {
+    max-width: 1600px;
+    padding: 0 var(--spacer-md) 0 var(--spacer-md);
+    margin: 0 auto;
+}
+
+.orebi-journal__inner {}
+
+.orebi-journal__items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacer-4xl);
+}
+
+.orebi-brands__center-content {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacer-3xl);
+}
+
+.orebi-brands__center-content__wrapper {
+    display: flex;
+    max-width: 507px;
+    flex-direction: column;
+    width: 100%;
+    gap: var(--spacer-xl);
+}
+
+.orebi-brands__center-content__wrapper-image {
+    max-width: 507px;
+    width: 100%;
+}
+
+.orebi-brands__center-content__wrapper-image img {
+    max-width: 507px;
+    min-height: 400px;
+    height: 100%;
+}
+
+.orebi-brands__center-content__wrapper-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacer-md);
+}
+
+.orebi-brands__center-content__wrapper-item__text {
+    font-size: var(--font-sm);
+    font-weight: 400;
+}
+
+.orebi-brands__center-content__wrapper-item__title {
+    font-size: var(--font-xl);
+    font-weight: 700;
+}
+
+.orebi-brands__center-content__wrapper-item__des {
+    font-size: var(--font-base);
+    font-weight: 400;
+}
