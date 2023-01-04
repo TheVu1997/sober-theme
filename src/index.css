@@ -43,9 +43,9 @@
   --spacer-3xl: 2.5rem;
   --spacer-4xl: 3rem;
   --spacer-5xl: 3.5rem;
+  --spacer-6xl: 4rem;
 
   --margin-bottom: 8rem;
-
 
   --font-sm: 0.875rem;
   --font-base: 1rem;
@@ -92,6 +92,12 @@
   font-weight: 700;
   color: var(--white);
   padding: 0 var(--spacer-xs) 0 var(--spacer-xs);
+}
+
+.text-gray--500 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6D6D6D;
 }
 
 a {
