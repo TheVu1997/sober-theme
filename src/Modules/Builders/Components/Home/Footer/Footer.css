@@ -77,6 +77,6 @@
 }
 
 .orebi-footer__top-right__logo-title {
-    font-size: 39px;
+    font-size: var(--font-3xl);
     font-weight: 700;
 }
